@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EndDoor : MonoBehaviour
 {
-    public string LevelToLoad = "EndScene";
+    public string LevelToLoad;
     // Start is called before the first frame update
     void Start()
     {
