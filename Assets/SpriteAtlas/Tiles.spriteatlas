@@ -44,12 +44,23 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 26256
+    totalSpriteSurfaceArea: 37520
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -344888179715434319, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 8507025820030227789, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 6341370224737695196, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: -7693382868939088697, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 2692668872550476181, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 2373183141213679312, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 8153785213593319801, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: -5587219251741293468, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 4334171132609126982, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 1329696334464466907, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: -5288153311091106340, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -267,6 +278,17 @@ SpriteAtlas:
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 21300000, guid: 9448701fdbdfbdd4bb6d7a8e22c982cb, type: 3}
   m_PackedSpriteNamesToIndex:
+  - New Piskel (6)_9
+  - New Piskel (6)_8
+  - New Piskel (6)_3
+  - New Piskel (6)_2
+  - New Piskel (6)_1
+  - New Piskel (6)_0
+  - New Piskel (6)_7
+  - New Piskel (6)_6
+  - New Piskel (6)_5
+  - New Piskel (6)_4
+  - New Piskel (6)_10
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6
