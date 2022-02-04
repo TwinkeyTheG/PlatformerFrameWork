@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
 
     private AudioSource myAud;
     public AudioClip jumpNoise;
+    public AudioClip DeathSound;
 
     //ladder things
     private bool isClimbing;
@@ -235,7 +236,9 @@ public class PlayerController : MonoBehaviour
         //disable player collision
         myCollider.enabled = false;
 
-
+        //play death sound and stop all other sound effects
+        myAud.Stop();
+        myAud.PlayOneShot(DeathSound);
 
         //wait for the time it takes the animation to complete
         yield return new WaitForSeconds(1.15f);

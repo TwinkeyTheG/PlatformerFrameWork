@@ -44,12 +44,17 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 37520
+    totalSpriteSurfaceArea: 43664
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 52565727038061405, guid: 2a3cbe61cd424c14cb2d7d884a117dda, type: 3}
+  - {fileID: 7619258727514524896, guid: 2a3cbe61cd424c14cb2d7d884a117dda, type: 3}
+  - {fileID: 5798287851852958741, guid: 2a3cbe61cd424c14cb2d7d884a117dda, type: 3}
+  - {fileID: 3333487156739236447, guid: 2a3cbe61cd424c14cb2d7d884a117dda, type: 3}
+  - {fileID: 6924721027664933009, guid: 2a3cbe61cd424c14cb2d7d884a117dda, type: 3}
   - {fileID: -344888179715434319, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
   - {fileID: 8507025820030227789, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
   - {fileID: 6341370224737695196, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
@@ -74,6 +79,7 @@ SpriteAtlas:
   - {fileID: -3347984106645726015, guid: 9e5bac4777e59db4c80a998172c53472, type: 3}
   - {fileID: -6386380331874166012, guid: 9e5bac4777e59db4c80a998172c53472, type: 3}
   - {fileID: 4055577607036525942, guid: 9e5bac4777e59db4c80a998172c53472, type: 3}
+  - {fileID: 21300000, guid: 0e00ded73e514cf47820c3b3c02da661, type: 3}
   - {fileID: 7562716900497062, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -7154765599751142846, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: 2984065513281883999, guid: f99a3879764308a4d92d87d841829522, type: 3}
@@ -278,6 +284,11 @@ SpriteAtlas:
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 21300000, guid: 9448701fdbdfbdd4bb6d7a8e22c982cb, type: 3}
   m_PackedSpriteNamesToIndex:
+  - AttackAnimation_4
+  - AttackAnimation_2
+  - AttackAnimation_3
+  - AttackAnimation_0
+  - AttackAnimation_1
   - New Piskel (6)_9
   - New Piskel (6)_8
   - New Piskel (6)_3
@@ -302,6 +313,7 @@ SpriteAtlas:
   - FlyingSlimeIdle_0
   - FlyingSlimeIdle_3
   - FlyingSlimeIdle_2
+  - New Piskel-1.png
   - cavesofgallet_tiles_0
   - cavesofgallet_tiles_1
   - cavesofgallet_tiles_2
