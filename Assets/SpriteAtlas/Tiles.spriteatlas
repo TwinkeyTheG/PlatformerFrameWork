@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 43664
+    totalSpriteSurfaceArea: 148208
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -66,6 +66,30 @@ SpriteAtlas:
   - {fileID: 4334171132609126982, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
   - {fileID: 1329696334464466907, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
   - {fileID: -5288153311091106340, guid: b9939e04437b56f4a8f248fb30af73cb, type: 3}
+  - {fileID: 3550701127810246201, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 2880335723258301885, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -2360648029197139965, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -267864902727190753, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 2478545801501854537, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 2563113856551544518, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 3798351463781570001, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -155483856238828614, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -2558513389053128791, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 8276546597426073554, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 7145457886706480608, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 4097683624285619345, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -8794659624988308864, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -2468891582117130723, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -4299379836027017241, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 7827601123478155787, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 42036409538050433, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -1072909842168288905, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -8589022482237053443, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -1698345488966040518, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -2220758982292089259, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -5113850848988359095, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: -960318691587876435, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
+  - {fileID: 4725964358076801325, guid: 8f4ef8758c869dd48a75338fc57c4d1a, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -300,6 +324,30 @@ SpriteAtlas:
   - New Piskel (6)_5
   - New Piskel (6)_4
   - New Piskel (6)_10
+  - platform_12
+  - platform_13
+  - platform_10
+  - platform_11
+  - platform_16
+  - platform_17
+  - platform_14
+  - platform_15
+  - platform_18
+  - platform_19
+  - platform_23
+  - platform_22
+  - platform_21
+  - platform_20
+  - platform_7
+  - platform_6
+  - platform_5
+  - platform_4
+  - platform_3
+  - platform_2
+  - platform_1
+  - platform_0
+  - platform_9
+  - platform_8
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6

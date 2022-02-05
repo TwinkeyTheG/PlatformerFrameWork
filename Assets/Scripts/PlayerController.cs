@@ -247,8 +247,8 @@ public class PlayerController : MonoBehaviour
         myCollider.enabled = true;
         controlOn = true;
         myRb.gravityScale = gravityScale;
-        myAnim.Play("PlayerIdle");
         //respawn at designated location
         transform.position = RespawnPoint;
+        myAnim.Play("PlayerIdle");
     }
 }

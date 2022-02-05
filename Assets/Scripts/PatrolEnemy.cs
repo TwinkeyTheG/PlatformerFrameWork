@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PatrolEnemy : MonoBehaviour
 {
+    public GameObject Enemy;
     public float speed;
     public bool movingRight = false;
 
@@ -12,6 +13,8 @@ public class PatrolEnemy : MonoBehaviour
 
     private Rigidbody2D myRB;
 
+    private Animator myAni;
+
     public float groundRayDist = 2f;
     public float wallRayDist = 0.2f;
 
@@ -19,6 +22,7 @@ public class PatrolEnemy : MonoBehaviour
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
+        myAni = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,5 +55,14 @@ public class PatrolEnemy : MonoBehaviour
         }
 
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Weapon"))
+        {
+            myAni.SetBool("Attacked", true);
+            Destroy(Enemy);
+        }
     }
 }
