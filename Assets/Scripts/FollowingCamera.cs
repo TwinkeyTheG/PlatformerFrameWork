@@ -37,7 +37,7 @@ public class FollowingCamera : MonoBehaviour
         Vector3 newPos = target.transform.position;
         newPos.z = transform.position.z;
 
-        if(shakeTime > 0)
+        if (shakeTime > 0)
         {
             newPos += Random.insideUnitSphere.normalized * shakeMagnitude;
             shakeTime -= Time.fixedDeltaTime;
