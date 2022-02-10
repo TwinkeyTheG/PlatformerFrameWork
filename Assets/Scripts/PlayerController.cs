@@ -237,7 +237,7 @@ public class PlayerController : MonoBehaviour
         myCollider.enabled = false;
 
         //play death sound and stop all other sound effects and disable attacking
-        myAud.Stop();
+        myAud.Pause();
         myAud.PlayOneShot(DeathSound);
 
         //wait for the time it takes the animation to complete
@@ -250,5 +250,6 @@ public class PlayerController : MonoBehaviour
         //respawn at designated location
         transform.position = RespawnPoint;
         myAnim.Play("PlayerIdle");
+        myAud.UnPause();
     }
 }

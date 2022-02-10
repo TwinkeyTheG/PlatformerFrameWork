@@ -171,6 +171,7 @@ MonoBehaviour:
   movingRight: 0
   frontDetection: {fileID: 0}
   backDetection: {fileID: 0}
+  DeathSound: {fileID: 8300000, guid: b1d51f2b6d90f8740bbc8746ab5af0f8, type: 3}
   groundRayDist: 2
   wallRayDist: 0.2
 --- !u!1 &8358313864354200544
