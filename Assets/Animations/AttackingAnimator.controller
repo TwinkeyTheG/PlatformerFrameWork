@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: 36df19964eda0774a864a5d127459207, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -62,7 +62,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Attacking
+  m_Name: AttackingAni
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -93,10 +93,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5609248889085880112}
-    m_Position: {x: 300, y: 60, z: 0}
+    m_Position: {x: 310, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3720383443979132469}
-    m_Position: {x: 560, y: 110, z: 0}
+    m_Position: {x: 530, y: 150, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

@@ -7,17 +7,18 @@ public class WeaponScript : MonoBehaviour
     //Takes this as the weapons to manipulate
     public GameObject Weapon;
     public GameObject myWeapon;
+    public GameObject Sweapon;
     //Where the Weapon should be instantiated
     public Transform Location;
     //Checks if the player has the Stick of Truth or not
     private bool hasWeapon = false;
-    //Animator for the weapons object
-    private Animator myAni;
+    //number for counter
+    float counter;
 
     //will tell the computer weapon was picked up and can detroy the original
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Weapon"))
         {
             hasWeapon = true;
             Destroy(Weapon);
@@ -27,18 +28,22 @@ public class WeaponScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myAni = GetComponent<Animator>();
+        counter = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("e"))
+        //counts down in real time as a cool down for the attack
+        counter -= Time.deltaTime;
+        if (hasWeapon == true && counter <= 0)
         {
-            Instantiate(myWeapon, Location.position, Location.rotation);
-            myAni.SetBool("Attacking", true);
-            Destroy(myWeapon,10f);
-            myAni.SetBool("Attacking", false);
+            if (Input.GetKeyDown("e"))
+            {
+                myWeapon = Instantiate(Sweapon, Location.position, Location.rotation);
+                Destroy(myWeapon,0.4f);
+                counter = 1;
+            }
         }
     }
 }

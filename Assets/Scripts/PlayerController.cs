@@ -12,7 +12,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-
     //speed and movement variables
     public float speed;
     public float airSpeed;
@@ -237,12 +236,12 @@ public class PlayerController : MonoBehaviour
         //disable player collision
         myCollider.enabled = false;
 
-        //play death sound and stop all other sound effects
+        //play death sound and stop all other sound effects and disable attacking
         myAud.Stop();
         myAud.PlayOneShot(DeathSound);
 
         //wait for the time it takes the animation to complete
-        yield return new WaitForSeconds(1.15f);
+        yield return new WaitForSeconds(1f);
 
         //reenable everything disabled
         myCollider.enabled = true;

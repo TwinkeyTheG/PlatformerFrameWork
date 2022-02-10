@@ -166,9 +166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f346e4f5958263642b06e1e7e04f7aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
   speed: 500
   movingRight: 0
-  detection: {fileID: 8358313864354200545}
+  frontDetection: {fileID: 0}
+  backDetection: {fileID: 0}
   groundRayDist: 2
   wallRayDist: 0.2
 --- !u!1 &8358313864354200544

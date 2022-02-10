@@ -56,13 +56,12 @@ public class PatrolEnemy : MonoBehaviour
 
 
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Weapon"))
         {
-            myAni.SetBool("Attacked", true);
-            Destroy(Enemy);
+            myAni.Play("Death");
+            Destroy(Enemy,0.6f);
         }
     }
 }
